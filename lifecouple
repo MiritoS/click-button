@@ -1,0 +1,35 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<style>
+@media only screen and (max-width: 768px) {
+  body.et_pb_button_helper_class .et_pb_button {
+    font-size: 14px;
+}
+  }
+</style>
+  </head>
+<body>
+<div class="et_pb_button_module_wrapper et_pb_button_0_wrapper et_pb_button_alignment_tablet_center et_pb_module ">
+				<a class="et_pb_button et_pb_button_0 et_pb_bg_layout_light" onclick="myFunction()">Start your 7 day free trial</a>
+			</div>
+<script>
+function myFunction() {
+//iPhone Version:
+if((navigator.userAgent.match(/iPhone/i)) || (navigator.userAgent.match(/iPod/i))) {
+    window.location = "https://apps.apple.com/us/app/lifecouple/id1402217992?ls=1";
+}
+//Android Version:
+if(navigator.userAgent.match(/android/i)) {
+    window.location = "https://play.google.com/store/apps/details?id=com.lifecouple.mobile1";
+}
+
+if(navigator.platform.indexOf('Mac') > -1){ window.location.href = 'itms-apps://?action=discover&referrer=app-store'; }
+if(navigator.platform.indexOf('Win') > -1){ window.location.href = 'https://chrome.google.com/webstore/category/extensions'; }
+
+}
+</script>
+
+</body>
+</html>                
